@@ -1,0 +1,5 @@
+Asset,Asset Type,Scope Status,Bounty Eligible,Notes
+https://app.example.test,Website,In Scope,Yes,Mock scope only; no live service
+*.api.example.test,Wildcard,included,Yes,Mock wildcard only
+https://outside.example.test,Website,Out of Scope,No,Must remain excluded
+mobile.example.test,Mobile Application,In Scope,Yes,Not a web target
