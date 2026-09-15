@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Real run output -- never commit actual scan results
+recon_output_*/
+*.xlsx
+domains.txt
+wildcard_domains.txt
+excluded_rows.txt
+normalized_scope.json
+all_subdomains.txt
+httpx_output*.json
+crawl_pages.jsonl
+crawl_resources.jsonl
+crawl_statistics.json
+javascript_assets.jsonl
+source_maps.jsonl
+secret_findings.jsonl
+analysis_statistics.json
+
+# Real scope CSVs identify a specific authorized program/target -- never commit
+*.csv
+!tests/fixtures/*.csv
